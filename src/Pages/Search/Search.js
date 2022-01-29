@@ -20,7 +20,7 @@ const Search = () => {
   const [content, setContent] = useState([]);
   const [numOfPages, setNumOfPages] = useState();
 
-  const darkTheme = createMuiTheme ({
+  const darkTheme = createMuiTheme({
     palette: {
       type: "dark",
       primary: {
